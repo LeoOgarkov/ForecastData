@@ -12,6 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         jsonAssetsParser.assetsToString(this, "city.list.json")
         jsonAssetsParser.parseAssetsJsonLonLatToSQLBase()
-            //Test GIT
+        // asdasdasdasdas
     }
 }

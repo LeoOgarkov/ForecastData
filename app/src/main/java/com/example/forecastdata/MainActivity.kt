@@ -15,5 +15,8 @@ class MainActivity : AppCompatActivity() {
         jsonAssetsParser.parseAssetsJsonLonLatToSQLBase()
         val featureVetka = "FeatureVetka"
         Log.i("MyLog", featureVetka)
+        val buildVetka = "BuildVetka"
+        Log.i("MyLog", buildVetka)
+
     }
 }

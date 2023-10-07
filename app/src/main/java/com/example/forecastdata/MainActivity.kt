@@ -2,7 +2,6 @@ package com.example.forecastdata
 
 
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -13,8 +12,5 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         jsonAssetsParser.assetsToString(this, "city.list.json")
         jsonAssetsParser.parseAssetsJsonLonLatToSQLBase()
-        jsonAssetsParser.parseAssetsJsonLonLatToSQLBase()
-        Log.i("fdfdf", "sdsds")
-        jsonAssetsParser.assetsToString(this, "city.list.Json")
     }
 }

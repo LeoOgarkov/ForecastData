@@ -13,5 +13,6 @@ class MainActivity : AppCompatActivity() {
         jsonAssetsParser.assetsToString(this, "city.list.json")
         jsonAssetsParser.parseAssetsJsonLonLatToSQLBase()
         jsonAssetsParser.parseAssetsJsonLonLatToSQLBase()
+        jsonAssetsParser.parseAssetsJsonLonLatToSQLBase()
     }
 }
